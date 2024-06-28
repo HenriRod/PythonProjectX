@@ -87,17 +87,32 @@
 
 # A.
 
-a = 3
-b = 4
-c = 5
+#a = 3
+#b = 3
+#c = 3
+#if (a>0 and b>0 and c>0) and (a+b>c and a+c>b and b+c>a):
+#    #se chegou até aqui é porque é um triangulo valido!
+#    if a==b==c:
+#        print("Equilátero")
+#    elif a==b or a==c or b==c:
+#        print("Isósceles")
+#    elif a!=b and a!=c and b!=c:
+#        print("Escaleno")
+#else:
+#    print("Não é um triangulo")
 
-if (a>0 and b>0 and c>0) and (a+b>c and a+c>b and b+c>a):
-    #se chegou até aqui é porque é um triangulo valido!
-    if a==b==c:
-        print("Equilátero")
-    elif a==b or a==c or b==c:
-        print("Isósceles")
-    elif a!=b and a!=c and b!=c:
-        print("Escaleno")
-else:
-    print("Não é um triangulo")
+
+# B.
+
+um = float(input(" Digite o primeiro número "))
+dois = float(input(" Digite o segundo número "))
+simbolo = input("Digite o simbolo + , - , * , / ")
+
+if simbolo == "+":
+    print(f"{um + dois}")
+elif simbolo == "-":
+    print(f"{um - dois}")
+elif simbolo == "*":
+    print(f"{um * dois}")
+elif simbolo == "/":
+    print(f"{um / dois}")
